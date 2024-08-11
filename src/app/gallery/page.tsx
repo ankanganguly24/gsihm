@@ -42,12 +42,55 @@ import image50 from "../../../public/image/new/avatar2.jpg";
 import image51 from "../../../public/image/new/avatar3.jpg";
 import image52 from "../../../public/image/new/aboutusimg.jpg";
 
+type GalleryProps = {
+  count?: number;
+  showHeader?: boolean;
+};
 
-
-
-
-const Gallery = ({ count, showHeader = true }) => {
-  const images = [image1, image2, image4, image5, image7, image9,image13,image15,image16,image18,image19,image20,image21,image24,image25,image26, image27, image28, image29, image30, image31, image33, image34, image35, image36, image37, image38, image39, image40, image41, image42, image43, image44, image45, image46, image47, image48, image49, image50, image51, image52]; 
+const Gallery: React.FC<GalleryProps> = ({ count, showHeader = true }) => {
+  const images = [
+    image1,
+    image2,
+    image4,
+    image5,
+    image7,
+    image9,
+    image13,
+    image15,
+    image16,
+    image18,
+    image19,
+    image20,
+    image21,
+    image24,
+    image25,
+    image26,
+    image27,
+    image28,
+    image29,
+    image30,
+    image31,
+    image33,
+    image34,
+    image35,
+    image36,
+    image37,
+    image38,
+    image39,
+    image40,
+    image41,
+    image42,
+    image43,
+    image44,
+    image45,
+    image46,
+    image47,
+    image48,
+    image49,
+    image50,
+    image51,
+    image52,
+  ];
 
   // If count is provided and is a positive number, limit the number of images
   const displayedImages = count && count > 0 ? images.slice(0, count) : images;
