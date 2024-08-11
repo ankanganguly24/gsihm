@@ -19,10 +19,10 @@ const CampusInfo = () => {
   const campusCount = useCountUp(0, 2, 3000);
   const successCount = useCountUp(0, 100, 3000);
 
-  const route = useRouter();
+  const router = useRouter();
 
-  const handleRoute = () => {
-    route.push("/courses");
+  const handleNavigate = () => {
+    router.push("/courses");
   };
 
   const fadeInUp = {
@@ -56,24 +56,24 @@ const CampusInfo = () => {
             icon: <GiCommercialAirplane size={50} />,
             title: "Aviation Courses",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "Flight Steward/Stewardess (Air hostess), Air Ticketing Staff, Ground Staff, Quality Control Personnel, Airport Operations Manager",
           },
           {
             icon: <IoBusinessSharp size={50} />,
             title: "Management Courses",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "Chef , F&B Service Associate, Bartender,Barista, Front Office Associate, Housekeeping Associate, etc",
           },
           {
             icon: <GrLanguage size={50} />,
             title: "Personality Development",
             description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "French Language, English Skills, Personality Development & Grooming by Industry Professionals, Public Speaking",
           },
         ].map((item, index) => (
           <motion.div
             key={index}
-            className="p-10 bg-white rounded-md shadow-lg mb-5 md:mb-0"
+            className="p-10 max-w-[400px] bg-white rounded-md shadow-lg mb-5 md:mb-0"
             initial="hidden"
             animate={controls}
             variants={fadeInUp}
@@ -88,8 +88,8 @@ const CampusInfo = () => {
 
       <CountSlider startCounting={290} />
 
-      <div className="flex flex-col items-center justify-center mt-10">
-        <Button size="lg" onClick={handleRoute}>
+      <div className="flex flex-col items-center justify-center md:mt-10 md:flex hidden">
+        <Button size="lg" onClick={handleNavigate}>
           Read more <CiLocationArrow1 size={20} width={10} className="ml-2" />
         </Button>
       </div>

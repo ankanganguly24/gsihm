@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 import CampusInfo from "@/components/ui/campus-info";
 import Whyus from "@/components/ui/why-us";
 import React, { useState } from "react";
-import aboutus from "../../../public/image/aboutusimage.webp";
 import Image from "next/image";
 import { MdOutlineReadMore } from "react-icons/md";
 import { IoAirplane } from "react-icons/io5";
 import { FaEye, FaFistRaised } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import aboutus  from "../../../public/image/new/aboutusimg.jpg"
 
 const About = () => {
   const router = useRouter();

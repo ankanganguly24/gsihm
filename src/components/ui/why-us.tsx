@@ -1,34 +1,28 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { IoAirplane } from "react-icons/io5";
 import { FaEye, FaFistRaised } from "react-icons/fa";
 import { MdOutlineReadMore } from "react-icons/md";
-import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Button } from "./button";
 
 const Whyus = () => {
-  const router = useRouter();
   const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handleRoute = () => {
-    router.push('/aboutus');
-  };
 
   const slides = [
     {
       icon: <IoAirplane fill="#091B5A" size={50} />,
-      text: 'GLOBAL PLACEMENTS'
+      text: "GLOBAL PLACEMENTS",
     },
     {
       icon: <FaFistRaised fill="#091B5A" size={50} />,
-      text: 'OUR MISSION'
+      text: "OUR MISSION",
     },
     {
       icon: <FaEye fill="#091B5A" size={50} />,
-      text: 'OUR VISION'
-    }
+      text: "OUR VISION",
+    },
   ];
 
   const nextSlide = () => {
@@ -36,7 +30,9 @@ const Whyus = () => {
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
+    setCurrentSlide(
+      (prevSlide) => (prevSlide - 1 + slides.length) % slides.length
+    );
   };
 
   return (
@@ -48,7 +44,10 @@ const Whyus = () => {
       </div>
 
       <div className="block md:hidden relative w-full overflow-hidden">
-        <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+        <div
+          className="flex transition-transform duration-500"
+          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+        >
           {slides.map((item, index) => (
             <motion.div
               key={index}
@@ -68,8 +67,18 @@ const Whyus = () => {
             </motion.div>
           ))}
         </div>
-        <button onClick={prevSlide} className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full">❮</button>
-        <button onClick={nextSlide} className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full">❯</button>
+        <button
+          onClick={prevSlide}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full"
+        >
+          ❮
+        </button>
+        <button
+          onClick={nextSlide}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 p-2 rounded-full"
+        >
+          ❯
+        </button>
       </div>
 
       <div className="hidden md:flex justify-between items-center mx-4 md:mx-20 lg:mx-40 my-10 gap-6 md:gap-10">
@@ -92,7 +101,7 @@ const Whyus = () => {
           </motion.div>
         ))}
       </div>
-
+      {/* 
       <div className="flex flex-col items-center mt-5 md:mt-0 justify-center">
         <Button  onClick={handleRoute} size={'lg'}>
           Read more
@@ -100,7 +109,7 @@ const Whyus = () => {
             <MdOutlineReadMore size={20} />
           </div>
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 };
