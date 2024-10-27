@@ -1,4 +1,3 @@
-"use client";
 import { Assosciations } from "@/components/ui/Association";
 import Gallery from "@/components/ui/Gallery";
 import AboutUniversity from "@/components/ui/about-uni";
@@ -8,6 +7,7 @@ import Header from "@/components/ui/header";
 import Location from "@/components/ui/location";
 import TestimonialCard from "@/components/ui/testimonial-card";
 import Whyus from "@/components/ui/why-us";
+import { Metadata } from "next";
 
 const Home = () => {
   return (

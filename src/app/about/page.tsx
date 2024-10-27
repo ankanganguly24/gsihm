@@ -10,7 +10,7 @@ import { IoAirplane } from "react-icons/io5";
 import { FaEye, FaFistRaised } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import aboutus  from "../../../public/image/new/aboutusimg.jpg"
+import aboutus from "../../../public/image/new/aboutusimg.jpg";
 
 const About = () => {
   const router = useRouter();
