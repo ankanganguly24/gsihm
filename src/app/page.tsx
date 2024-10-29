@@ -1,6 +1,7 @@
 import { Assosciations } from "@/components/ui/Association";
 import Gallery from "@/components/ui/Gallery";
 import AboutUniversity from "@/components/ui/about-uni";
+import Affiliates from "@/components/ui/affiliates";
 import CampusInfo from "@/components/ui/campus-info";
 import GoogleReviews from "@/components/ui/google-reviews";
 import Header from "@/components/ui/header";
@@ -14,6 +15,8 @@ const Home = () => {
     <div>
       <Header />
       <AboutUniversity />
+      <Affiliates />
+
       <Whyus />
       <CampusInfo />
       <GoogleReviews />

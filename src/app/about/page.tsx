@@ -11,6 +11,7 @@ import { FaEye, FaFistRaised } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import aboutus from "../../../public/image/new/aboutusimg.jpg";
+import Affiliates from "@/components/ui/affiliates";
 
 const About = () => {
   const router = useRouter();
@@ -89,6 +90,8 @@ const About = () => {
             </p>
           </div>
         </div>
+
+        <Affiliates />
 
         <div className="py-10">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-5">
