@@ -86,10 +86,11 @@ const Footer = () => {
                 Road, Pradhan Nagar, Siliguri-734003
               </li>
               <li>
-                <b>Phone:</b> +91 90025 37266
+                <b>Phone:</b> +91 7551027004 <br></br>
+                <b>Phone 2:</b> +91 8972021070 <br></br>
               </li>
               <li>
-                <b>Email:</b> ankan@gmail.com
+                <b>Email:</b> gsihm111@gmail.com <br></br>
               </li>
             </ul>
           </div>
