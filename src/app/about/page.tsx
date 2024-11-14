@@ -69,24 +69,53 @@ const About = () => {
               ABOUT US
             </h1>
             <p className="text-sm md:text-base lg:text-md leading-relaxed">
-              It gives us immense pleasure to introduce you to Global Spectra
-              Institute Of Hospitality Management (GSIHM). It is located in a
-              small hamlet, Pradhan Nagar, in Siliguri the foothills of
-              Darjeeling.
+              <strong>
+                <em>
+                  <u>
+                    Global Spectra Institute Of Hospitality Management (GSIHM)
+                  </u>
+                </em>
+              </strong>{" "}
+              is a premier educational institute located in the serene hamlet of{" "}
+              <strong>
+                <em>Pradhan Nagar, Siliguri</em>
+              </strong>
+              , nestled at the foothills of{" "}
+              <strong>
+                <em>Darjeeling</em>
+              </strong>
+              . Established in <strong>2017</strong>, GSIHM brings together
+              industry veterans from <em>hospitality</em> and <em>aviation</em>,
+              combining a wealth of experience in <strong>operations</strong>,{" "}
+              <strong>human resources</strong>, and <strong>education</strong>.
+              GSIHM is proud to be an{" "}
+              <strong>ISO 9001:2015 Certified Institute</strong>, demonstrating
+              our <u>commitment to quality education</u>. We are also affiliated
+              with the{" "}
+              <strong>
+                <em>
+                  Council for Vocational Education & Skill Development (CVESD)
+                </em>
+              </strong>{" "}
+              and hold registration under the{" "}
+              <strong>
+                <em>Ministry of Micro, Small, and Medium Enterprises (MSME)</em>
+              </strong>{" "}
+              and the{" "}
+              <strong>
+                <em>Ministry of Corporate Affairs</em>
+              </strong>
+              .<br />
               <br />
-              <br />
-              We are an ISO 9001:2015 Certified Institute AFFILIATED with
-              COUNCIL FOR VOCATIONAL EDUCATION & SKILL DEVELOPMENT licensed
-              under Ministry of Corporate Affairs. GSIHM was formed in the Year
-              2017 by Industry Professionals coming from the Operations and HR
-              background of Hospitality and Aviation. The Organisation has able
-              and experienced faculties with good Academic Background and
-              Professional Experience in the fields of Hotel, Aviation, Cruise
-              and Travel Tourism. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Nisi aut perferendis libero neque molestias! Eos
-              sint aut est. Animi, ipsum? Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Vero facere minus iusto maxime
-              veritatis officia illum non neque molestias molestiae?
+              Our faculty members are distinguished by their{" "}
+              <em>strong academic backgrounds</em> and{" "}
+              <em>substantial professional expertise</em> across diverse fields,
+              including <strong>hotel management</strong>,{" "}
+              <strong>aviation</strong>, <strong>cruise operations</strong>, and{" "}
+              <strong>travel and tourism</strong>. By joining{" "}
+              <strong>GSIHM</strong>, students gain practical knowledge from
+              mentors who have excelled in the industry, positioning them for{" "}
+              <strong>success</strong> in their chosen careers.
             </p>
           </div>
         </div>
@@ -98,24 +127,51 @@ const About = () => {
             MORE INFO
           </h1>
           <p className="text-sm md:text-base lg:text-md leading-relaxed">
-            It gives us immense pleasure to introduce you to Global Spectra
-            Institute Of Hospitality Management (GSIHM). It is located in a
-            small hamlet, Pradhan Nagar, in Siliguri the foothills of
-            Darjeeling.
+            At{" "}
+            <strong>
+              <em>
+                <u>
+                  Global Spectra Institute Of Hospitality Management (GSIHM)
+                </u>
+              </em>
+            </strong>
+            , we not only provide top-tier education but also offer a unique
+            pathway to{" "}
+            <strong>
+              <em>global career opportunities</em>
+            </strong>
+            . Our dedicated <em>placement team</em> works tirelessly to ensure
+            each student achieves their career goals with a{" "}
+            <strong>100% placement guarantee</strong>.<br />
+            <br />
+            We specialize in <strong>global placements</strong> across prominent
+            industries, connecting students with leading hotels, airlines,
+            cruise lines, and tourism companies worldwide. Our alumni have
+            successfully launched careers across the globe, benefiting from
+            GSIHM’s extensive network and industry partnerships.
             <br />
             <br />
-            We are an ISO 9001:2015 Certified Institute AFFILIATED with COUNCIL
-            FOR VOCATIONAL EDUCATION & SKILL DEVELOPMENT licensed under Ministry
-            of Corporate Affairs. GSIHM was formed in the Year 2017 by Industry
-            Professionals coming from the Operations and HR background of
-            Hospitality and Aviation. The Organisation has able and experienced
-            faculties with good Academic Background and Professional Experience
-            in the fields of Hotel, Aviation, Cruise and Travel Tourism. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Nisi aut
-            perferendis libero neque molestias! Eos sint aut est. Animi, ipsum?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-            facere minus iusto maxime veritatis officia illum non neque
-            molestias molestiae?
+            <strong>Why Choose GSIHM?</strong>
+            <br />- <strong>100% Placement Guarantee:</strong> We stand by our
+            commitment to place every student in a role that matches their
+            training and aspirations.
+            <br />- <strong>Industry Mentorship:</strong> Our faculty comprises
+            seasoned professionals from the fields of hospitality, aviation, and
+            tourism, providing students with real-world insights and mentorship.
+            <br />- <strong>Global Connections:</strong> Partnerships with
+            leading organizations worldwide ensure our students gain
+            international exposure and a competitive edge.
+            <br />- <strong>Practical Training:</strong> Our curriculum is
+            designed for hands-on learning, equipping students with practical
+            skills in a real-world setting.
+            <br />
+            <br />
+            <em>
+              Join GSIHM and take the first step toward an exciting, successful
+              career in hospitality, aviation, and beyond. Unlock your potential
+              and achieve your dreams with a trusted partner in education and
+              placement support.
+            </em>
           </p>
         </div>
 
