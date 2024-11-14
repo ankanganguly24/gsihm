@@ -241,7 +241,7 @@ const About = () => {
             ))}
           </div>
         </div>
-        <CampusInfo />
+        {/* <CampusInfo /> */}
         <Assosciations />
       </div>
     </>
