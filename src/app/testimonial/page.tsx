@@ -36,223 +36,222 @@ import image40 from "../../../public/image/new/IMG-20240705-WA0029.jpg";
 const Testimonial = () => {
   const testimonials = [
     {
-      name: "Daniella Doe",
+      name: "Sahi Rai",
       avatar: avatar1,
       role: "Mobile Developer",
       content:
-        "The courses at this institute were incredibly comprehensive and hands-on. The instructors were experienced professionals who provided us with real-world scenarios to solve. I feel fully prepared for my career thanks to this program.",
+        "My experience at GSIHM has been amazing. The hands-on training and support from instructors really helped me gain confidence in mobile app development. The placement team was also very dedicated and helped me land a job right after graduation. I feel fully prepared for my career now!",
     },
     {
-      name: "Akriti Sharma",
+      name: "Vidhita Pradhan",
       avatar: avatar2,
       role: "Marketing Specialist",
       content:
-        "My time here has been transformative. The marketing strategies I learned have been directly applicable to my current job. The networking opportunities provided have also been invaluable.",
+        "I chose GSIHM for its strong industry connections, and I wasn’t disappointed. The practical knowledge and real-world experience provided in the marketing field were exactly what I needed to succeed. I’m grateful for the support and guidance I received every step of the way.",
     },
     {
-      name: "John Doe",
+      name: "Prem Roka",
       avatar: avatar3,
       role: "Web Developer",
       content:
-        "I had an amazing experience at this institute. The curriculum was up-to-date with the latest industry standards, and the projects we worked on really helped solidify my skills.",
+        "GSIHM’s curriculum is exactly what aspiring developers need. From day one, I was immersed in projects that taught me practical skills. The instructors are very knowledgeable and supportive. Thanks to GSIHM, I secured a great position right after my training!",
     },
     {
-      name: "Yanick Doe",
+      name: "Shreya Chettri",
       avatar: image13,
-      role: "Developer",
+      role: "Full-Stack Developer",
       content:
-        "The learning environment here is fantastic. The small class sizes allowed for personalized attention, and the faculty's dedication to student success is evident in every aspect of the program.",
+        "Joining GSIHM was the best decision for my career. The faculty are highly experienced, and the placement team really worked hard to find opportunities that matched my skills and career goals. I now have a rewarding job, thanks to the guidance I received here.",
     },
     {
-      name: "Sophia Liu",
+      name: "Reya Rasaily",
       avatar: image15,
-      role: "Chef",
+      role: "Software Developer",
       content:
-        "As a culinary student, I appreciated the state-of-the-art kitchens and the diverse range of cuisines we were exposed to. The practical training was second to none.",
+        "I came to GSIHM hoping to gain practical skills, and I left with so much more. The team was supportive, the environment was motivating, and the job placement assistance made the transition to my career seamless. I highly recommend GSIHM to anyone looking to build a future in tech.",
     },
     {
-      name: "Michael Johnson",
+      name: "Aditya Gurung",
       avatar: image4,
-      role: "Hotel Manager",
+      role: "Backend Developer",
       content:
-        "The hospitality management program offered a perfect blend of theory and practice. The internships arranged by the institute gave me a head start in my career.",
+        "GSIHM provided a solid foundation for my career in backend development. The real-world projects and supportive mentors prepared me well for my current job. I’m grateful for the skills and knowledge I gained here, as well as the help in finding the right job.",
     },
     {
-      name: "Emily Carter",
+      name: "Roshni Lama",
       avatar: image5,
-      role: "Event Planner",
+      role: "Frontend Developer",
       content:
-        "Planning events has always been my passion, and this institute helped turn that passion into a profession. The hands-on projects and real-world case studies were incredibly beneficial.",
+        "The training at GSIHM was exactly what I needed to enter the tech industry. I loved the balance of theory and hands-on practice. The team was dedicated, and the job placement support was excellent. I now feel confident in my skills and career path!",
     },
+    // {
+    //   name: "Daniel Lee",
+    //   avatar: image7,
+    //   role: "Restaurant Manager",
+    //   content:
+    //     "The training I received here was instrumental in my current role as a restaurant manager. The business acumen and operational skills taught were directly applicable.",
+    // },
+    // {
+    //   name: "Ava Martinez",
+    //   avatar: image9,
+    //   role: "Pastry Chef",
+    //   content:
+    //     "The pastry and baking program exceeded my expectations. The instructors were master chefs who shared their wealth of knowledge and techniques with us.",
+    // },
+    // {
+    //   name: "Noah Brown",
+    //   avatar: image13,
+    //   role: "Sommelier",
+    //   content:
+    //     "I gained an in-depth understanding of wine and spirits through the sommelier certification program. The tasting sessions and field trips were highlights of my education here.",
+    // },
     {
-      name: "Daniel Lee",
-      avatar: image7,
-      role: "Restaurant Manager",
-      content:
-        "The training I received here was instrumental in my current role as a restaurant manager. The business acumen and operational skills taught were directly applicable.",
-    },
-    {
-      name: "Ava Martinez",
-      avatar: image9,
-      role: "Pastry Chef",
-      content:
-        "The pastry and baking program exceeded my expectations. The instructors were master chefs who shared their wealth of knowledge and techniques with us.",
-    },
-    {
-      name: "Noah Brown",
-      avatar: image13,
-      role: "Sommelier",
-      content:
-        "I gained an in-depth understanding of wine and spirits through the sommelier certification program. The tasting sessions and field trips were highlights of my education here.",
-    },
-    {
-      name: "Isabella Wilson",
+      name: "Pukar Basnet",
       avatar: image16,
       role: "Concierge",
       content:
-        "The hospitality program prepared me well for the challenges of working in a luxury hotel. The customer service training was particularly valuable.",
+        "I am grateful for the training I received at GSIHM. Senior faculty members with years of industry experience provided valuable insights and mentorship. The practical training was particularly beneficial.",
     },
     {
-      name: "Liam Davis",
+      name: "Aman Gurung",
       avatar: image18,
       role: "Catering Manager",
       content:
         "The institute's focus on practical experience meant that I was ready to hit the ground running in my first job. The faculty's industry connections helped me land my dream job.",
     },
     {
-      name: "Mia Robinson",
+      name: "Sukriti Pradhan",
       avatar: image19,
       role: "Travel Consultant",
       content:
-        "Studying travel and tourism here was an incredible experience. The curriculum was diverse and covered all aspects of the industry, from travel planning to customer service.",
+        "GSIHM provided me with the skills and knowledge needed me to land my first job.",
     },
     {
-      name: "Elijah Clark",
+      name: "Nikita Ekta",
       avatar: image20,
       role: "Bartender",
       content:
-        "The bartending course was thorough and fun. I learned everything from classic cocktails to the latest trends in mixology. The hands-on training was particularly effective.",
+        "The training and real-world scenarios were particularly effective. GSIHM helped me secure a great job after completion.",
     },
     {
-      name: "Charlotte Lewis",
+      name: "Akriti Lama",
       avatar: image21,
       role: "Housekeeping Manager",
-      content:
-        "The housekeeping management program provided a deep dive into the operational aspects of hotel management. The skills I acquired here have been crucial in my career progression.",
+      content: "I am forever grateful for what GSIHM has done for me. ",
     },
     {
-      name: "Lucas Walker",
+      name: "Diya Rana",
       avatar: image24,
       role: "Front Desk Supervisor",
       content:
-        "This institute's focus on customer service excellence prepared me well for my role at the front desk. The role-playing exercises and real-world scenarios were particularly helpful.",
+        "Never in my wildest dreams did I think I would be where I am today. The training and support I received at GSIHM were instrumental in my career growth.",
     },
     {
-      name: "Amelia Hall",
+      name: "Rolan Lepcha",
       avatar: image25,
       role: "Tour Guide",
       content:
-        "The tourism program was exceptional. The field trips and practical experiences helped me develop the skills needed to become a successful tour guide.",
+        "It wasnt easy but the training and support I received at GSIHM were instrumental in my career growth.",
     },
+    // {
+    //   name: "James Young",
+    //   avatar: image26,
+    //   role: "Food and Beverage Manager",
+    //   content:
+    //     "The food and beverage management course was comprehensive and insightful. The focus on current trends and operational skills was particularly beneficial.",
+    // },
+    // {
+    //   name: "Harper King",
+    //   avatar: image27,
+    //   role: "Event Coordinator",
+    //   content:
+    //     "The event management program offered at this institute was outstanding. The hands-on projects and real-world case studies were incredibly beneficial.",
+    // },
     {
-      name: "James Young",
-      avatar: image26,
-      role: "Food and Beverage Manager",
-      content:
-        "The food and beverage management course was comprehensive and insightful. The focus on current trends and operational skills was particularly beneficial.",
-    },
-    {
-      name: "Harper King",
-      avatar: image27,
-      role: "Event Coordinator",
-      content:
-        "The event management program offered at this institute was outstanding. The hands-on projects and real-world case studies were incredibly beneficial.",
-    },
-    {
-      name: "Benjamin Scott",
+      name: "Reshma Rai",
       avatar: image28,
       role: "Chef de Cuisine",
       content:
-        "The culinary arts program here is top-notch. The instructors are experienced chefs who provided invaluable insights and mentorship.",
+        "Real world experience and practical training were invaluable. GSIHM is the best of them all.",
     },
     {
-      name: "Evelyn Harris",
+      name: "Sunil Rai",
       avatar: image29,
       role: "Hotel Front Office Manager",
       content:
-        "The front office management course provided me with the skills and knowledge needed to excel in my current role. The practical training was particularly valuable.",
+        "Lets just say that GSIHM is the best institute for hospitality management.",
     },
     {
-      name: "Henry Mitchell",
+      name: "Nikhil Thapa",
       avatar: image30,
       role: "Travel Agent",
       content:
-        "The travel and tourism program was comprehensive and well-structured. The faculty's industry connections helped me secure a great job after graduation.",
+        "Could have never imagined that I would be where I am today. Thank you team.",
     },
-    {
-      name: "Grace Carter",
-      avatar: image31,
-      role: "Executive Chef",
-      content:
-        "The culinary program offered at this institute was exceptional. The hands-on training and real-world experience were invaluable.",
-    },
+    // {
+    //   name: "Grace Carter",
+    //   avatar: image31,
+    //   role: "Executive Chef",
+    //   content:
+    //     "The culinary program offered at this institute was exceptional. The hands-on training and real-world experience were invaluable.",
+    // },
 
-    {
-      name: "Abigail Thompson",
-      avatar: image33,
-      role: "Bartender",
-      content:
-        "The bartending course was thorough and engaging. The practical training and real-world scenarios were particularly effective.",
-    },
-    {
-      name: "William Adams",
-      avatar: image34,
-      role: "Hotel General Manager",
-      content:
-        "The hotel management program prepared me well for the challenges of working in a luxury hotel. The customer service training was particularly valuable.",
-    },
-    {
-      name: "Emily Martin",
-      avatar: image35,
-      role: "Event Planner",
-      content:
-        "The event management program was comprehensive and well-structured. The faculty's industry connections helped me secure a great job after graduation.",
-    },
-    {
-      name: "Alexander Anderson",
-      avatar: image36,
-      role: "Travel Consultant",
-      content:
-        "The travel and tourism program was exceptional. The field trips and practical experiences helped me develop the skills needed to become a successful travel consultant.",
-    },
-    {
-      name: "Charlotte Martinez",
-      avatar: image37,
-      role: "Pastry Chef",
-      content:
-        "The pastry and baking program exceeded my expectations. The instructors were master chefs who shared their wealth of knowledge and techniques with us.",
-    },
-    {
-      name: "James Taylor",
-      avatar: image38,
-      role: "Concierge",
-      content:
-        "The hospitality program prepared me well for the challenges of working in a luxury hotel. The customer service training was particularly valuable.",
-    },
-    {
-      name: "Sophia Wilson",
-      avatar: image39,
-      role: "Catering Manager",
-      content:
-        "The institute's focus on practical experience meant that I was ready to hit the ground running in my first job. The faculty's industry connections helped me land my dream job.",
-    },
-    {
-      name: "Benjamin Brown",
-      avatar: image40,
-      role: "Restaurant Manager",
-      content:
-        "The training I received here was instrumental in my current role as a restaurant manager. The business acumen and operational skills taught were directly applicable.",
-    },
+    // {
+    //   name: "Abigail Thompson",
+    //   avatar: image33,
+    //   role: "Bartender",
+    //   content:
+    //     "The bartending course was thorough and engaging. The practical training and real-world scenarios were particularly effective.",
+    // },
+    // {
+    //   name: "William Adams",
+    //   avatar: image34,
+    //   role: "Hotel General Manager",
+    //   content:
+    //     "The hotel management program prepared me well for the challenges of working in a luxury hotel. The customer service training was particularly valuable.",
+    // },
+    // {
+    //   name: "Emily Martin",
+    //   avatar: image35,
+    //   role: "Event Planner",
+    //   content:
+    //     "The event management program was comprehensive and well-structured. The faculty's industry connections helped me secure a great job after graduation.",
+    // },
+    // {
+    //   name: "Alexander Anderson",
+    //   avatar: image36,
+    //   role: "Travel Consultant",
+    //   content:
+    //     "The travel and tourism program was exceptional. The field trips and practical experiences helped me develop the skills needed to become a successful travel consultant.",
+    // },
+    // {
+    //   name: "Charlotte Martinez",
+    //   avatar: image37,
+    //   role: "Pastry Chef",
+    //   content:
+    //     "The pastry and baking program exceeded my expectations. The instructors were master chefs who shared their wealth of knowledge and techniques with us.",
+    // },
+    // {
+    //   name: "James Taylor",
+    //   avatar: image38,
+    //   role: "Concierge",
+    //   content:
+    //     "The hospitality program prepared me well for the challenges of working in a luxury hotel. The customer service training was particularly valuable.",
+    // },
+    // {
+    //   name: "Sophia Wilson",
+    //   avatar: image39,
+    //   role: "Catering Manager",
+    //   content:
+    //     "The institute's focus on practical experience meant that I was ready to hit the ground running in my first job. The faculty's industry connections helped me land my dream job.",
+    // },
+    // {
+    //   name: "Benjamin Brown",
+    //   avatar: image40,
+    //   role: "Restaurant Manager",
+    //   content:
+    //     "The training I received here was instrumental in my current role as a restaurant manager. The business acumen and operational skills taught were directly applicable.",
+    // },
   ];
 
   return (
@@ -281,12 +280,12 @@ const Testimonial = () => {
                   height={300}
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700 dark:text-white mt-3 ">
                     {testimonial.name}
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-300">
                     {testimonial.role}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <p className="mt-8">{testimonial.content}</p>

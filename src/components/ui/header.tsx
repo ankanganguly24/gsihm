@@ -16,10 +16,10 @@ const Header = () => {
 
   return (
     <div>
-      <div className="">
+      <div className="hidden md:inline-block">
         <div className="content_bg">
           <div className="md:w-42 w-full md:px-32 flex flex-col md:items-left md:py-32">
-            <div className="flex gap-x-30 md:py-0 py-10">
+            <div className="flex gap-x-30 md:py-0 py-10 ">
               <div className="md:w-[70%] md:text-left text-center">
                 <motion.h1
                   initial={{ opacity: 0, y: -20 }}
@@ -59,9 +59,54 @@ const Header = () => {
                 </motion.div>
               </div>
 
-              <div className="md:block hidden">
-                <Image src={student} alt="logo" width={390} height={390} />
+              <div className="md:block">
+                <Image
+                  src={student}
+                  quality={100}
+                  alt="logo"
+                  width={600}
+                  height={400}
+                  className="absolute md:top-0 md:right-0 md:mt-0 mt-20"
+                />
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="md:hidden inline-block">
+        <div className="content_bg w-[100%] min-h-screen px-3">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-sm font-bold text-center py-4 text-primary"
+            >
+              Welcome to GSIHM
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="text-3xl text-center font-bold text-primary mb-5"
+            >
+              Global standards of high Quality learning
+            </motion.p>
+
+            <Image
+              src={student}
+              quality={100}
+              alt="logo"
+              width={400}
+              height={100}
+              className="h-[450px] w-[450px] -mt-36 mx-auto"
+            />
+
+            <div className="flex flex-col items-center justify-center ">
+              <Button size="lg" onClick={handleNavigate} className="mt-10">
+                Explore Courses <CgArrowTopRight className="ml-3" />
+              </Button>
             </div>
           </div>
         </div>

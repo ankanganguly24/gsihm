@@ -17,70 +17,54 @@ import image15 from "../../../public/image/new/IMG-20240508-WA0030.jpg";
 const TestimonialCard = () => {
   const testimonials = [
     {
-      name: "Daniella Doe",
+      name: "Sahi Rai",
       avatar: avatar1,
-      role: "Mobile dev",
+      role: "Mobile Developer",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+        "My experience at GSIHM has been amazing. The hands-on training and support from instructors really helped me gain confidence in mobile app development. The placement team was also very dedicated and helped me land a job right after graduation. I feel fully prepared for my career now!",
     },
     {
-      name: "AKRITI",
+      name: "Vidhita Pradhan",
       avatar: avatar2,
-      role: "Marketing",
+      role: "Marketing Specialist",
       content:
-        "Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+        "I chose GSIHM for its strong industry connections, and I wasn’t disappointed. The practical knowledge and real-world experience provided in the marketing field were exactly what I needed to succeed. I’m grateful for the support and guidance I received every step of the way.",
     },
-    
     {
-      name: "Jhon Doe",
+      name: "Prem Roka",
       avatar: avatar3,
-      role: "Web dev",
+      role: "Web Developer",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+        "GSIHM’s curriculum is exactly what aspiring developers need. From day one, I was immersed in projects that taught me practical skills. The instructors are very knowledgeable and supportive. Thanks to GSIHM, I secured a great position right after my training!",
     },
-
-      {
-        name: "Yanick Doe",
-        avatar: image13,
-        role: "Developer",
-        content:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-      },
-        {
-            name: "Yanick Doe",
-            avatar: image15,
-            role: "Developer",
-            content:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-        },
-        {
-            name: "Yanick Doe",
-            avatar: image4,
-            role: "Developer",
-            content:
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-          },
-            {
-                name: "Yanick Doe",
-                avatar: image5,
-                role: "Developer",
-                content:
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-            },
-            {
-                name: "Yanick Doe",
-                avatar: image7,
-                role: "Developer",
-                content:
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-            },
-            {
-                name: "Yanick Doe",
-                avatar: image9,
-                role: "Developer",
-                content:
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-            },
+    {
+      name: "Shreya Chettri",
+      avatar: image13,
+      role: "Full-Stack Developer",
+      content:
+        "Joining GSIHM was the best decision for my career. The faculty are highly experienced, and the placement team really worked hard to find opportunities that matched my skills and career goals. I now have a rewarding job, thanks to the guidance I received here.",
+    },
+    {
+      name: "Reya Rasaily",
+      avatar: image15,
+      role: "Software Developer",
+      content:
+        "I came to GSIHM hoping to gain practical skills, and I left with so much more. The team was supportive, the environment was motivating, and the job placement assistance made the transition to my career seamless. I highly recommend GSIHM to anyone looking to build a future in tech.",
+    },
+    {
+      name: "Aditya Gurung",
+      avatar: image4,
+      role: "Backend Developer",
+      content:
+        "GSIHM provided a solid foundation for my career in backend development. The real-world projects and supportive mentors prepared me well for my current job. I’m grateful for the skills and knowledge I gained here, as well as the help in finding the right job.",
+    },
+    {
+      name: "Roshni Lama",
+      avatar: image5,
+      role: "Frontend Developer",
+      content:
+        "The training at GSIHM was exactly what I needed to enter the tech industry. I loved the balance of theory and hands-on practice. The team was dedicated, and the job placement support was excellent. I now feel confident in my skills and career path!",
+    },
   ];
 
   return (
@@ -111,12 +95,12 @@ const TestimonialCard = () => {
                   height={300}
                 />
                 <div>
-                  <h6 className="text-lg font-medium text-gray-700 dark:text-white">
+                  <h6 className="text-lg font-medium text-gray-700 mt-3 dark:text-white">
                     {testimonial.name}
                   </h6>
-                  <p className="text-sm text-gray-500 dark:text-gray-300">
+                  {/* <p className="text-sm text-gray-500 dark:text-gray-300">
                     {testimonial.role}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <p className="mt-8">{testimonial.content}</p>
