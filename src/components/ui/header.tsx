@@ -64,9 +64,7 @@ const Header = () => {
                   src={student}
                   quality={100}
                   alt="logo"
-                  width={600}
-                  height={400}
-                  className="absolute md:top-0 md:right-0 md:mt-0 mt-20"
+                  className="absolute h-[700px] w-[700px] -mt-36  "
                 />
               </div>
             </div>
@@ -81,17 +79,20 @@ const Header = () => {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-sm font-bold text-center py-4 text-primary"
+              className="text-4xl font-bold text-center pt-32 pb-12 text-primary"
             >
               Welcome to GSIHM
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-3xl text-center font-bold text-primary mb-5"
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="mx-auto text-center text-lg font-semibold text-primary"
             >
-              Global standards of high Quality learning
+              Enhancing skills for a brighter career. GSIHM’s vision is to
+              emerge as the strongest organisation for an ethical business
+              approach & to achieve the corporate supremacy by providing
+              incomparable services to our clients
             </motion.p>
 
             <Image

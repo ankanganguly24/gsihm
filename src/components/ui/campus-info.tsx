@@ -50,7 +50,7 @@ const CampusInfo = () => {
         <h2 className="text-3xl font-bold text-white">Campus Information</h2>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center gap-x-10 mx-4 md:mx-20 lg:mx-32 my-10">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-6 mx-4 md:mx-20 lg:mx-32 my-10">
         {[
           {
             icon: <GiCommercialAirplane size={50} />,
@@ -66,29 +66,31 @@ const CampusInfo = () => {
           },
           {
             icon: <GrLanguage size={50} />,
-            title: "Personality Development",
+            title: "CRUISE MANAGEMENT",
             description:
-              "French Language, English Skills, Personality Development & Grooming by Industry Professionals, Public Speaking",
+              "Gain the essential skills for a successful career in cruise management, including training in onboard operations, guest services, hospitality management, crew coordination, and leadership in the cruise industry.",
           },
         ].map((item, index) => (
           <motion.div
             key={index}
-            className="p-10 max-w-[400px] bg-white rounded-md shadow-lg mb-5 md:mb-0"
+            className="p-6 md:p-10 w-full md:w-[350px] lg:w-[400px] min-h-[280px] md:h-[300px] bg-white rounded-md shadow-lg mb-4 md:mb-0 flex flex-col"
             initial="hidden"
             animate={controls}
             variants={fadeInUp}
             transition={{ delay: index * 0.3, duration: 0.6 }}
           >
-            <div>{item.icon}</div>
-            <h2 className="text-xl font-semibold my-3">{item.title}</h2>
-            <p>{item.description}</p>
+            <div className="mb-3 md:mb-4">{item.icon}</div>
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4">
+              {item.title}
+            </h2>
+            <p className="flex-1 text-sm md:text-base">{item.description}</p>
           </motion.div>
         ))}
       </div>
 
       <CountSlider startCounting={290} />
 
-      <div className="flex flex-col items-center justify-center md:mt-10 md:flex hidden">
+      <div className="flex flex-col items-center justify-center mt-6 md:mt-10">
         <Button size="lg" onClick={handleNavigate}>
           Read more <CiLocationArrow1 size={20} width={10} className="ml-2" />
         </Button>
