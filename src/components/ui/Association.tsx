@@ -6,7 +6,8 @@ import { Button } from "./button";
 import { FaPhone } from "react-icons/fa";
 import airline1 from "../../../public/image/brands/IndiGo_Airlines_logo.svg";
 import airline2 from "../../../public/image/brands/SpiceJet.svg";
-import airline3 from "../../../public/image/brands/vistara-logo.svg";
+// import airline3 from "../../../public/image/brands/vistara-logo.svg";
+import airline3 from "../../../public/image/brands/airindia.webp";
 import airline4 from "../../../public/image/brands/qatar-airways-logo.svg";
 
 import cruise1 from "../../../public/image/brands/princess-cruises.svg";
@@ -32,7 +33,7 @@ export function Assosciations() {
     <>
       <div className="rounded-md flex flex-col text-black  items-center justify-center relative overflow-hidden">
         <h1 className="text-2xl text-primary font-bold my-3 text-center">
-          Our Airline Associations
+          Aviation brands we work with
         </h1>
         <InfiniteMovingCards
           items={items}
@@ -45,7 +46,7 @@ export function Assosciations() {
 
       <div className="rounded-md flex flex-col text-black antialiased items-center justify-center relative overflow-hidden">
         <h1 className="text-2xl text-primary font-bold my-3 text-center">
-          Our Hotel line Associations
+          Hotel brands we work with
         </h1>
         <InfiniteMovingCards
           items={hotels}
@@ -58,7 +59,7 @@ export function Assosciations() {
 
       <div className="rounded-md flex flex-col text-black antialiased items-center justify-center relative overflow-hidden">
         <h1 className="text-2xl text-primary font-bold my-3 text-center">
-          Our Cruise line Associations
+          Cruise brands we work with
         </h1>
         <InfiniteMovingCards
           items={cruise}

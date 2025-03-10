@@ -11,9 +11,9 @@ const courses = [
     id: 1,
     title: "HOTEL MANAGEMENT",
     description1:
-      "From local banks to local government, we partner with organizations on their journey to digital transformation. Our customers include 15 million professionals in 175 countries and 800 of the fortune 1000.",
+      "Learn the art of hospitality and hotel operations. This course covers everything from front office management to food and beverage services, housekeeping, and customer relationship management.",
     description2:
-      "We can't believe how far we have come in the last 6 months. I really did not think this awesome career move would come so quickly. Thanks to each of you put into SI and the partner relationships.",
+      "With the hospitality industry growing rapidly, skilled professionals are in high demand. Our program equips you with practical knowledge and industry insights to excel in hotel management.",
     author: "ROSHAN",
     organization: "GSIHM",
     imageUrl: hotelmanagement,
@@ -23,9 +23,9 @@ const courses = [
     id: 2,
     title: "AVIATION MANAGEMENT",
     description1:
-      "From local banks to local government, we partner with organizations on their journey to digital transformation. Our customers include 15 million professionals in 175 countries and 800 of the fortune 1000.",
+      "Gain a deep understanding of the aviation industry, including airport operations, airline management, and air traffic control. This course is designed for aspiring professionals in the aviation sector.",
     description2:
-      "We can't believe how far we have come in the last 6 months. I really did not think this awesome career move would come so quickly. Thanks to each of you put into SI and the partner relationships.",
+      "With air travel expanding globally, aviation management professionals play a crucial role in ensuring efficient airline operations. This course provides hands-on learning and industry exposure.",
     author: "ROSHAN",
     organization: "GSIHM",
     imageUrl: aviationmanagement,
@@ -35,9 +35,9 @@ const courses = [
     id: 3,
     title: "CRUISE MANAGEMENT",
     description1:
-      "From local banks to local government, we partner with organizations on their journey to digital transformation. Our customers include 15 million professionals in 175 countries and 800 of the fortune 1000.",
+      "Embark on an exciting career in the cruise industry. This course covers essential aspects such as cruise operations, hospitality management at sea, maritime regulations, and customer service excellence.",
     description2:
-      "We can't believe how far we have come in the last 6 months. I really did not think this awesome career move would come so quickly. Thanks to each of you put into SI and the partner relationships.",
+      "Cruise management offers unique career opportunities in luxury hospitality and global tourism. Our program prepares you to navigate the industry with expertise and confidence.",
     author: "ROSHAN",
     organization: "GSIHM",
     imageUrl: cruisemanagement,
@@ -47,9 +47,9 @@ const courses = [
     id: 4,
     title: "PERSONALITY DEVELOPMENT",
     description1:
-      "From local banks to local government, we partner with organizations on their journey to digital transformation. Our customers include 15 million professionals in 175 countries and 800 of the fortune 1000.",
+      "Enhance your communication skills, confidence, and leadership abilities with this comprehensive personality development program. Learn effective public speaking, body language, and self-presentation techniques.",
     description2:
-      "We can't believe how far we have come in the last 6 months. I really did not think this awesome career move would come so quickly. Thanks to each of you put into SI and the partner relationships.",
+      "Strong personal and professional skills are essential for career growth. This course helps you build a powerful presence, improve interpersonal relationships, and unlock your full potential.",
     author: "ROSHAN",
     organization: "GSIHM",
     imageUrl: personalitydevelopment,

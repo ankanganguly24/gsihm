@@ -35,7 +35,7 @@ const Header = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="md:text-6xl text-2xl font-bold text-primary my-8"
                 >
-                  Global standards of high quality learning
+                  Global spectra institute of hospitality management
                 </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: -20 }}
@@ -64,7 +64,7 @@ const Header = () => {
                   src={student}
                   quality={100}
                   alt="logo"
-                  className="absolute h-[700px] w-[700px] -mt-36  "
+                  className="absolute h-[700px] w-[500px] -mt-36  "
                 />
               </div>
             </div>
