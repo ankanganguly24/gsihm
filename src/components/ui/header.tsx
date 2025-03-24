@@ -67,7 +67,7 @@ const Header = () => {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                className="relative md:w-[500px] md:h-[350px] rounded-xl overflow-hidden shadow-lg"
+                className="relative md:w-[600px] md:h-[300px] rounded-xl overflow-hidden shadow-lg"
               >
                 <video
                   autoPlay
