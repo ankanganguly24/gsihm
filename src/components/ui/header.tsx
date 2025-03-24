@@ -1,14 +1,14 @@
 "use client";
-import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "./button";
 import { CgArrowTopRight } from "react-icons/cg";
-import student from "../../../public/image/student.png";
+import { IoMdClose } from "react-icons/io";
 import { useRouter } from "next/navigation";
 
 const Header = () => {
   const router = useRouter();
+  const [showVideo, setShowVideo] = useState(true);
 
   const handleNavigate = () => {
     router.push("/courses");
@@ -16,11 +16,13 @@ const Header = () => {
 
   return (
     <div>
-      <div className="hidden md:inline-block">
-        <div className="content_bg">
+      {/* Desktop View */}
+      <div className="hidden md:block">
+        <div className="content_bg min-h-screen flex items-center">
           <div className="md:w-42 w-full md:px-32 flex flex-col md:items-left md:py-32">
-            <div className="flex gap-x-30 md:py-0 py-10 ">
-              <div className="md:w-[70%] md:text-left text-center">
+            <div className="flex md:items-center gap-x-10">
+              {/* Text Content */}
+              <div className="md:w-[65%] md:text-left text-center">
                 <motion.h1
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -35,18 +37,19 @@ const Header = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="md:text-6xl text-2xl font-bold text-primary my-8"
                 >
-                  Global spectra institute of hospitality management
+                  Global Spectra Institute of Hospitality Management
                 </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
-                  className=""
                 >
-                  Enhancing skills for a brighter career. GSIHM’s vision is to
-                  emerge as the strongest organisation for an ethical business
-                  approach & to achieve the corporate supremacy by providing
-                  incomparable services to our clients
+                  At GSIHM, we don’t just teach hospitality—we shape future
+                  industry leaders. Gain hands-on experience, world-class
+                  training, and the skills top employers demand. Whether you
+                  dream of managing luxury hotels, running your own restaurant,
+                  or excelling in tourism, we’ll equip you for success. Join us
+                  today and turn your passion into a thriving career!
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: -20 }}
@@ -59,56 +62,96 @@ const Header = () => {
                 </motion.div>
               </div>
 
-              <div className="md:block">
-                <Image
-                  src={student}
-                  quality={100}
-                  alt="logo"
-                  className="absolute h-[700px] w-[500px] -mt-36  "
-                />
-              </div>
+              {/* Video Section */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                className="relative md:w-[500px] md:h-[350px] rounded-xl overflow-hidden shadow-lg"
+              >
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  controls
+                  className="w-full h-full object-cover rounded-xl"
+                >
+                  <source src="/image/new/introvideo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </motion.div>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Mobile View */}
       <div className="md:hidden inline-block">
-        <div className="content_bg w-[100%] min-h-screen px-3">
-          <div>
+        <div className="content_bg w-full px-3 pb-32 pt-24 relative min-h-[620px] flex flex-col justify-between">
+          <div className="text-center">
+            {/* Heading */}
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl font-bold text-center pt-32 pb-12 text-primary"
+              className="text-4xl font-bold text-primary"
             >
               Welcome to GSIHM
             </motion.h1>
+
+            <motion.p className="text-2xl font-bold py-3 text-primary">
+              Global Spectra Institute of Hospitality Management
+            </motion.p>
+
+            {/* Description */}
             <motion.p
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="mx-auto text-center text-lg font-semibold text-primary"
+              className="mx-auto text-lg font-semibold py-5 text-primary"
             >
-              Enhancing skills for a brighter career. GSIHM’s vision is to
-              emerge as the strongest organisation for an ethical business
-              approach & to achieve the corporate supremacy by providing
-              incomparable services to our clients
+              At GSIHM, we don’t just teach hospitality—we shape future industry
+              leaders. Gain hands-on experience, world-class training, and the
+              skills top employers demand. Whether you dream of managing luxury
+              hotels, running your own restaurant, or excelling in tourism,
+              we’ll equip you for success. Join us today and turn your passion
+              into a thriving career!
             </motion.p>
+          </div>
 
-            <Image
-              src={student}
-              quality={100}
-              alt="logo"
-              width={400}
-              height={100}
-              className="h-[450px] w-[450px] -mt-36 mx-auto"
-            />
+          {/* Floating Video */}
+          {showVideo && (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              className="fixed bottom-5 right-5 w-[250px] h-[150px] md:w-[400px] md:h-[250px] bg-black rounded-xl overflow-hidden shadow-xl"
+              style={{ zIndex: 50 }}
+            >
+              <button
+                onClick={() => setShowVideo(false)}
+                className="absolute top-2 right-2 z-10 p-2 bg-black/50 rounded-full text-white"
+              >
+                <IoMdClose size={20} />
+              </button>
+              <video
+                autoPlay
+                loop
+                muted
+                controls
+                className="w-full h-full object-cover rounded-xl"
+              >
+                <source src="/image/new/introvideo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </motion.div>
+          )}
 
-            <div className="flex flex-col items-center justify-center ">
-              <Button size="lg" onClick={handleNavigate} className="mt-10">
-                Explore Courses <CgArrowTopRight className="ml-3" />
-              </Button>
-            </div>
+          {/* Button */}
+          <div className="flex justify-center mt-10">
+            <Button size="lg" onClick={handleNavigate}>
+              Explore Courses <CgArrowTopRight className="ml-3" />
+            </Button>
           </div>
         </div>
       </div>

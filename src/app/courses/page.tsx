@@ -82,7 +82,7 @@ const Courses = () => {
               <h2 className="text-xl font-bold mb-2">{course.title}</h2>
               <p className="text-base mb-2">{course.description1}</p>
               <p className="text-base mb-4">{course.description2}</p>
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <div className="w-12 h-12 mr-4">
                   <Image
                     src={course.profileImage}
@@ -96,7 +96,7 @@ const Courses = () => {
                   <p className="font-semibold">{course.author}</p>
                   <p className="text-sm text-gray-300">{course.organization}</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

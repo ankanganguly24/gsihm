@@ -41,6 +41,7 @@ import image49 from "../../../public/image/new/avatar1.jpg";
 import image50 from "../../../public/image/new/avatar2.jpg";
 import image51 from "../../../public/image/new/avatar3.jpg";
 import image52 from "../../../public/image/new/aboutusimg.jpg";
+import image53 from "../../../public/image/shristy.jpeg";
 
 type GalleryProps = {
   count?: number;
@@ -90,6 +91,7 @@ const Gallery: React.FC<GalleryProps> = ({ count, showHeader = true }) => {
     image50,
     image51,
     image52,
+    image53,
   ];
 
   // If count is provided and is a positive number, limit the number of images

@@ -36,7 +36,7 @@ import image40 from "../../../public/image/new/IMG-20240705-WA0029.jpg";
 const Testimonial = () => {
   const testimonials = [
     {
-      name: "Sahi Rai",
+      name: "Sahil Rai",
       avatar: avatar1,
       role: "Mobile Developer",
       content:
@@ -49,13 +49,13 @@ const Testimonial = () => {
       content:
         "I chose GSIHM for its strong industry connections, and I wasn’t disappointed. The practical knowledge and real-world experience provided in the marketing field were exactly what I needed to succeed. I’m grateful for the support and guidance I received every step of the way.",
     },
-    {
-      name: "Prem Roka",
-      avatar: avatar3,
-      role: "Web Developer",
-      content:
-        "GSIHM’s curriculum is exactly what aspiring developers need. From day one, I was immersed in projects that taught me practical skills. The instructors are very knowledgeable and supportive. Thanks to GSIHM, I secured a great position right after my training!",
-    },
+    // {
+    //   name: "Prem Roka",
+    //   avatar: avatar3,
+    //   role: "Web Developer",
+    //   content:
+    //     "GSIHM’s curriculum is exactly what aspiring developers need. From day one, I was immersed in projects that taught me practical skills. The instructors are very knowledgeable and supportive. Thanks to GSIHM, I secured a great position right after my training!",
+    // },
     {
       name: "Shreya Chettri",
       avatar: image13,
@@ -64,19 +64,19 @@ const Testimonial = () => {
         "Joining GSIHM was the best decision for my career. The faculty are highly experienced, and the placement team really worked hard to find opportunities that matched my skills and career goals. I now have a rewarding job, thanks to the guidance I received here.",
     },
     {
-      name: "Reya Rasaily",
+      name: "Riya Rasaily",
       avatar: image15,
       role: "Software Developer",
       content:
         "I came to GSIHM hoping to gain practical skills, and I left with so much more. The team was supportive, the environment was motivating, and the job placement assistance made the transition to my career seamless. I highly recommend GSIHM to anyone looking to build a future in tech.",
     },
-    {
-      name: "Aditya Gurung",
-      avatar: image4,
-      role: "Backend Developer",
-      content:
-        "GSIHM provided a solid foundation for my career in backend development. The real-world projects and supportive mentors prepared me well for my current job. I’m grateful for the skills and knowledge I gained here, as well as the help in finding the right job.",
-    },
+    // {
+    //   name: "Aditya Gurung",
+    //   avatar: image4,
+    //   role: "Backend Developer",
+    //   content:
+    //     "GSIHM provided a solid foundation for my career in backend development. The real-world projects and supportive mentors prepared me well for my current job. I’m grateful for the skills and knowledge I gained here, as well as the help in finding the right job.",
+    // },
     {
       name: "Roshni Lama",
       avatar: image5,
@@ -181,13 +181,13 @@ const Testimonial = () => {
       content:
         "Lets just say that GSIHM is the best institute for hospitality management.",
     },
-    {
-      name: "Nikhil Thapa",
-      avatar: image30,
-      role: "Travel Agent",
-      content:
-        "Could have never imagined that I would be where I am today. Thank you team.",
-    },
+    // {
+    //   name: "Nikhil Thapa",
+    //   avatar: image30,
+    //   role: "Travel Agent",
+    //   content:
+    //     "Could have never imagined that I would be where I am today. Thank you team.",
+    // },
     // {
     //   name: "Grace Carter",
     //   avatar: image31,
