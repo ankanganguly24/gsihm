@@ -5,6 +5,7 @@ import Affiliates from "@/components/ui/affiliates";
 import CampusInfo from "@/components/ui/campus-info";
 import GoogleReviews from "@/components/ui/google-reviews";
 import Header from "@/components/ui/header";
+import InfoSection from "@/components/ui/info-section";
 import Location from "@/components/ui/location";
 import TestimonialCard from "@/components/ui/testimonial-card";
 import Whyus from "@/components/ui/why-us";
@@ -17,7 +18,7 @@ const Home = () => {
       <AboutUniversity />
       <Affiliates />
 
-      <Whyus />
+      <InfoSection />
       <CampusInfo />
       <GoogleReviews />
       <TestimonialCard />

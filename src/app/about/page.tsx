@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import aboutus from "../../../public/image/new/aboutusimg.jpg";
 import Affiliates from "@/components/ui/affiliates";
+import InfoSection from "@/components/ui/info-section";
 
 const About = () => {
   const router = useRouter();
@@ -69,53 +70,24 @@ const About = () => {
               ABOUT US
             </h1>
             <p className="text-sm md:text-base lg:text-md leading-relaxed">
-              <strong>
-                <em>
-                  <u>
-                    Global Spectra Institute Of Hospitality Management (GSIHM)
-                  </u>
-                </em>
-              </strong>{" "}
-              is a premier educational institute located in the serene hamlet of{" "}
-              <strong>
-                <em>Pradhan Nagar, Siliguri</em>
-              </strong>
-              , nestled at the foothills of{" "}
-              <strong>
-                <em>Darjeeling</em>
-              </strong>
-              . Established in <strong>2017</strong>, GSIHM brings together
-              industry veterans from <em>hospitality</em> and <em>aviation</em>,
-              combining a wealth of experience in <strong>operations</strong>,{" "}
-              <strong>human resources</strong>, and <strong>education</strong>.
-              GSIHM is proud to be an{" "}
-              <strong>ISO 9001:2015 Certified Institute</strong>, demonstrating
-              our <u>commitment to quality education</u>. We are also affiliated
-              with the{" "}
-              <strong>
-                <em>
-                  Council for Vocational Education & Skill Development (CVESD)
-                </em>
-              </strong>{" "}
-              and hold registration under the{" "}
-              <strong>
-                <em>Ministry of Micro, Small, and Medium Enterprises (MSME)</em>
-              </strong>{" "}
-              and the{" "}
-              <strong>
-                <em>Ministry of Corporate Affairs</em>
-              </strong>
-              .<br />
-              <br />
-              Our faculty members are distinguished by their{" "}
-              <em>strong academic backgrounds</em> and{" "}
-              <em>substantial professional expertise</em> across diverse fields,
-              including <strong>hotel management</strong>,{" "}
-              <strong>aviation</strong>, <strong>cruise operations</strong>, and{" "}
-              <strong>travel and tourism</strong>. By joining{" "}
-              <strong>GSIHM</strong>, students gain practical knowledge from
-              mentors who have excelled in the industry, positioning them for{" "}
-              <strong>success</strong> in their chosen careers.
+              Global Spectra Institute Of Hospitality Management (GSIHM) is a
+              premier educational institute located in the serene hamlet of
+              Pradhan Nagar, Siliguri, nestled at the foothills of Darjeeling.
+              Established in 2017, GSIHM brings together industry veterans from
+              Hospitality and Aviation, combining a wealth of experience in
+              operations, Human Resources, and Education. GSIHM is proud to be
+              an ISO 9001:2015 Certified Institute, demonstrating our commitment
+              to quality education. We are also affiliated with the Council for
+              Vocational Education & Skill Development (CVESD) and hold
+              registration under the Ministry of Micro, Small, and Medium
+              Enterprises (MSME) and the Ministry of Corporate Affairs.
+              <br></br>
+              Our faculty members are distinguished by their strong academic
+              backgrounds and substantial professional expertise across diverse
+              fields, including Hotel management, Aviation, Cruise Operations,
+              and Travel and Tourism. By joining GSIHM, students gain practical
+              knowledge from mentors who have excelled in the industry,
+              positioning them for success in their chosen careers.
             </p>
           </div>
         </div>
@@ -126,7 +98,9 @@ const About = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-5">
             MORE INFO
           </h1>
-          <p className="text-sm md:text-base lg:text-md leading-relaxed">
+
+          <InfoSection />
+          {/* <p className="text-sm md:text-base lg:text-md leading-relaxed">
             At{" "}
             <strong>
               <em>
@@ -240,9 +214,11 @@ const About = () => {
               </motion.div>
             ))}
           </div>
-        </div>
+        </div> */}
         {/* <CampusInfo /> */}
+        
         <Assosciations />
+      </div>
       </div>
     </>
   );
